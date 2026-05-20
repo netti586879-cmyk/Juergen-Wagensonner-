@@ -4,257 +4,233 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dr. Jürgen Wagensonner</title>
+
 <style>
 body{
 margin:0;
+background:#d8cfb2;
+color:#000;
 font-family:Georgia,serif;
-background:#f4ead8;
-color:#173326;
-line-height:1.7;
+line-height:1.8;
 }
 header{
-background:#efe3cf;
-padding:25px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-border-bottom:1px solid #c6a45b;
+background:#5d6f58;
+color:#d4af37;
+text-align:center;
+padding:70px 20px;
 }
-.logo{
-font-size:28px;
-color:#173326;
-font-weight:bold;
+header h1{
+font-size:50px;
+font-weight:normal;
+margin:0;
 }
-nav{
-color:#173326;
-font-size:14px;
-letter-spacing:1px;
+header p{
+color:#f5e7b7;
+font-size:20px;
+}
+.container{
+max-width:1100px;
+margin:auto;
+padding:45px 25px;
 }
 .hero{
 display:flex;
+gap:45px;
 align-items:center;
-justify-content:space-between;
-gap:50px;
-padding:70px 8%;
-background:linear-gradient(90deg,#fff6e7,#ead8bd);
+justify-content:center;
+flex-wrap:wrap;
+}
+.hero img{
+width:340px;
+max-width:90%;
+border-radius:26px;
+border:8px solid #b89a52;
+box-shadow:0 10px 35px rgba(0,0,0,0.25);
 }
 .hero-text{
-max-width:560px;
+max-width:620px;
 }
-.gold{
-color:#b28a38;
-font-weight:bold;
-letter-spacing:2px;
-font-size:20px;
-}
-h1{
-font-size:58px;
-line-height:1.1;
-color:#173326;
-margin:20px 0;
+h2,h3{
+color:#5d6f58;
+font-weight:normal;
 }
 h2{
-font-size:34px;
-color:#173326;
-margin-bottom:10px;
+font-size:42px;
 }
-p{
-font-size:19px;
-}
-img{
-max-width:360px;
-border-radius:28px;
-border:3px solid #b28a38;
-box-shadow:0 20px 45px rgba(0,0,0,0.18);
-background:white;
-}
-.button{
-display:inline-block;
-margin-top:25px;
-background:#173326;
-color:#f4ead8;
-padding:14px 28px;
-border:1px solid #b28a38;
-text-decoration:none;
-letter-spacing:1px;
+h3{
+font-size:32px;
 }
 .section{
-padding:45px 8%;
+background:#efe5ca;
+padding:38px;
+margin:35px 0;
+border-radius:24px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
-.card{
-background:#fffaf0;
-border:1px solid #d8bd7c;
-border-radius:18px;
-padding:30px;
-margin-bottom:25px;
-box-shadow:0 10px 25px rgba(0,0,0,0.05);
+.section p{
+font-size:20px;
 }
 .quote{
-background:#173326;
-color:#f4ead8;
-border-radius:18px;
-padding:35px;
+background:#5d6f58;
+color:#f5e7b7;
+padding:40px;
+border-radius:24px;
 text-align:center;
-font-size:22px;
-color:#d6b15e;
-}
-.grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:25px;
+font-size:25px;
+font-style:italic;
 }
 .values{
 display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:15px;
-text-align:center;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:18px;
 }
 .value{
-background:#fffaf0;
-border:1px solid #d8bd7c;
-border-radius:16px;
-padding:25px;
-}
-.value h3{
-color:#173326;
-margin-bottom:8px;
-}
-.timeline p{
-margin:10px 0;
+background:#5d6f58;
+color:#f5e7b7;
+padding:22px;
+border-radius:18px;
+text-align:center;
+font-size:19px;
 }
 footer{
-background:#173326;
-color:#f4ead8;
+background:#5d6f58;
+color:#f5e7b7;
 text-align:center;
 padding:35px;
-letter-spacing:1px;
 }
-@media(max-width:850px){
-.hero{
-flex-direction:column;
-text-align:center;
-}
-h1{
-font-size:40px;
-}
-img{
-max-width:280px;
-}
-.grid,.values{
-grid-template-columns:1fr;
-}
+@media(max-width:768px){
+header h1{font-size:36px;}
+h2{font-size:32px;}
+h3{font-size:28px;}
+.hero{text-align:center;}
+.section{padding:26px;}
 }
 </style>
 </head>
 
-<body><div style="text-align:center; margin-top:40px;">
-  <img src="IMG_7493.png" alt="Dr. Jürgen Wagensonner"
-       style="width:280px; max-width:90%; border-radius:18px;
-       border:6px solid #b59a5c;
-       box-shadow:0 8px 30px rgba(0,0,0,0.25);">
-</div>
+<body>
 
 <header>
-<div class="logo">JW<br>Dr. Jürgen Wagensonner</div>
-<nav>ÜBER MICH · WERDEGANG · WERTE · FAMILIE</nav>
+<h1>Dr. Jürgen Wagensonner</h1>
+<p>Bescheidenheit · Verantwortung · Vertrauen · Zukunft</p>
 </header>
 
-<section class="hero">
+<div class="container">
+
+<div class="hero">
+<img src="IMG_7493.png" alt="Dr. Jürgen Wagensonner">
+
 <div class="hero-text">
-<div class="gold">STRATEGIE · FÜHRUNG · WIRKUNG</div>
-<h1>Dr. Jürgen<br>Wagensonner</h1>
+<h2>Persönlichkeit & Wirken</h2>
 <p>
-Einer der herausragesten, seriösesten und bescheidensten Banker seiner Zeit,
-der mit viel Erfahrung, Vorsicht und Bescheidenheit die Bankenlandschaft in Österreich
-geprägt und in die Zukunft geführt hat.
-</p>
-<a class="button" href="#ueber">Mehr über Dr.Jürgen Wagensonner
-
-
-<img src="juergen-wagensonner.png" alt="Dr. Jürgen Wagensonner">
-</section>
-
-<section class="section" id="ueber">
-<div class="grid">
-<div class="card">
-<h2>Über Dr. Jürgen Wagensonner</h2>
-<p>
-Dr. Jürgen Wagensonner wurde 1944 in Wien geboren und promovierte an der Universität Innsbruck zum Dr. jur.
-Er war viele Jahre in leitenden Positionen im österreichischen Bankwesen tätig und gehörte dem Vorstand der
-Bank für Tirol und Vorarlberg AG an.
+Dr. Jürgen Wagensonner zählt zu den herausragenden,
+seriösen und zugleich bescheidenen Bankern seiner Zeit.
+Mit außergewöhnlicher Erfahrung, Vorsicht und Weitblick
+prägte er die Bankenlandschaft in Österreich nachhaltig
+und führte sie verantwortungsvoll in die Zukunft.
 </p>
 <p>
-Später wirkte er als Wirtschaftsberater, Aufsichtsrat und Belgischer Honorarkonsul für Tirol und Vorarlberg.
+Sein Name steht für Vertrauen, Integrität,
+Stabilität und menschliche Größe.
+</p>
+</div>
+</div>
+
+<div class="section">
+<h3>Leben</h3>
+<p>
+Dr. Jürgen Wagensonner wurde 1944 in Wien geboren
+und promovierte an der Universität Innsbruck zum Dr. jur.
+</p>
+<p>
+Sein Leben und Wirken sind geprägt von Verantwortungsbewusstsein,
+Bescheidenheit, beruflicher Exzellenz und tiefer Verbundenheit
+mit seiner Familie.
+</p>
+</div>
+
+<div class="section">
+<h3>Beruf und Lebenswerk</h3>
+<p>
+1970 trat Dr. Jürgen Wagensonner in die Bank für Tirol
+und Vorarlberg AG ein. 1987 wurde er in den Vorstand der BTV berufen.
+</p>
+<p>
+Über Jahrzehnte hinweg war er eine prägende Persönlichkeit
+des österreichischen Bankwesens. Mit ruhiger Hand,
+strategischem Denken und hoher Verantwortung leitete er
+bedeutende Entwicklungen mit Klarheit und Umsicht.
+</p>
+<p>
+Neben seiner Tätigkeit im Bankwesen war Dr. Jürgen Wagensonner
+in zahlreichen bedeutenden Aufsichtsratspositionen tätig
+und wirkte als anerkannter Wirtschaftsberater.
+</p>
+<p>
+Von 1996 bis 2014 war er Belgischer Honorarkonsul
+für Tirol und Vorarlberg. Für seinen Einsatz und seine Verdienste
+wurde er vom König von Belgien ausgezeichnet.
 </p>
 </div>
 
 <div class="quote">
-„Erfolg ist kein Zufall.<br>
-Er ist das Ergebnis klarer Entscheidungen,<br>
-Erfahrung und konsequenter Umsetzung.“
-<br><br>
-Dr. Jürgen Wagensonner
+„Wahre Größe zeigt sich nicht im Auftreten,
+sondern in Verantwortung, Haltung und Vertrauen.“
 </div>
-</div>
-</section>
 
-<section class="section">
+<div class="section">
+<h3>Familie</h3>
+<p>
+Dr. Jürgen Wagensonner ist seit über 60 Jahren
+mit Burgi Wagensonner, geborene Seeber aus Südtirol,
+verheiratet.
+</p>
+<p>
+Zur Familie gehört auch sein Schwager Michael Seeber,
+dessen Familie mit dem international erfolgreichen Unternehmen
+Leitner Seilbahnen verbunden ist.
+</p>
+<p>
+Der Vater von Dr. Jürgen Wagensonner war Dr. Hermann Wagensonner,
+geboren am 6. Mai 1911 in Wien.
+Er studierte Elektrotechnik mit Auszeichnung
+und promovierte sub auspiciis.
+</p>
+<p>
+Dr. Hermann Wagensonner war eine bedeutende technische
+Führungspersönlichkeit Tirols und jahrzehntelang bei der TIWAG tätig.
+</p>
+<p>
+Die Mutter war Ingeborg Wagensonner.
+</p>
+<p>
+Dr. Jürgen Wagensonner hat eine Schwester:
+Elke Wagensonner, verheiratete Gschnitzer.
+</p>
+<p>
+Er hat zwei Töchter:
+Dr. Verena Wagensonner, verheiratete Winkler,
+und Mag. Katharina Wagensonner, verheiratete Margreiter.
+</p>
+</div>
+
+<div class="section">
+<h3>Werte</h3>
 <div class="values">
-<div class="value">
-<h3>Erfahrung</h3>
-<p>Jahrzehntelange Führung in Wirtschaft und Beratung.</p>
+<div class="value">Vertrauen</div>
+<div class="value">Bescheidenheit</div>
+<div class="value">Verantwortung</div>
+<div class="value">Integrität</div>
+<div class="value">Weitblick</div>
+<div class="value">Nachhaltigkeit</div>
 </div>
-<div class="value">
-<h3>Strategie</h3>
-<p>Klarer Fokus auf nachhaltige Wertschöpfung.</p>
-</div>
-<div class="value">
-<h3>Führung</h3>
-<p>Menschen entwickeln und Organisationen stärken.</p>
-</div>
-<div class="value">
-<h3>Wirkung</h3>
-<p>Ergebnisse, die heute und morgen zählen.</p>
-</div>
-</div>
-</section>
-
-<section class="section">
-<div class="grid">
-<div class="card timeline">
-<h2>Beruflicher Werdegang</h2>
-<p><strong>1970:</strong> Eintritt in die Bank für Tirol und Vorarlberg AG.</p>
-<p><strong>1987:</strong> Berufung in den Vorstand.</p>
-<p><strong>1996–2014:</strong> Belgischer Honorarkonsul für Tirol und Vorarlberg.</p>
-<p>
-Für seinen Einsatz wurde er vom König von Belgien ausgezeichnet.
-</p>
 </div>
 
-<div class="card">
-<h2>Familie</h2>
-<p>
-Sein Vater war Dr. Hermann Wagensonner, geboren am 6. Mai 1911 in Wien.
-Er studierte Elektrotechnik mit Auszeichnung und promovierte sub auspiciis.
-</p>
-<p>
-Seine Mutter war Ingeborg Wagensonner.
-</p>
-<p>
-Dr. Jürgen Wagensonner hat eine Schwester: Elke Wagensonner, verheiratete Gschnitzer.
-</p>
-<p>
-Er hat zwei Töchter: Dr. Verena Wagensonner, verheiratete Winkler, und Mag. Katharina Wagensonner,
-verheiratete Margreiter.
-</p>
 </div>
-</div>
-</section>
 
 <footer>
-Kompetenz · Integrität · Verantwortung<br>
 © Dr. Jürgen Wagensonner · juergenwagensonner.com
 </footer>
 
 </body>
-</html
+</html>
