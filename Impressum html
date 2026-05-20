@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum – Dr. Jürgen Wagensonner</title>
+
+  <meta name="description"
+        content="Offizielle Webseite von Dr. Jürgen Wagensonner – Biografie, Karriere und historische Dokumentation.">
+</head>
+
+<body style="font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; line-height: 1.7; padding: 20px;">
+
+  <h1>Impressum</h1>
+
+  <p>
+    Offizielle Webseite von Dr. Jürgen Wagensonner
+  </p>
+
+  <h2>Medieninhaber und Herausgeber</h2>
+
+  <p>
+    Dr. Jürgen Wagensonner<br>
+    Herzog-Friedrich-Straße 39<br>
+    6020 Innsbruck<br>
+    Österreich
+  </p>
+
+  <h2>Kontakt</h2>
+
+  <p>
+    E-Mail:
+    <a href="mailto:belg.konsulat.innsbruck@gmail.com">
+      belg.konsulat.innsbruck@gmail.com
+    </a>
+  </p>
+
+  <h2>Unternehmensgegenstand</h2>
+
+  <p>
+    Persönliche Informations- und Dokumentationswebseite
+    über das berufliche und historische Wirken
+    von Dr. Jürgen Wagensonner.
+  </p>
+
+  <h2>Verantwortlich für den Inhalt</h2>
+
+  <p>
+    Dr. Jürgen Wagensonner
+  </p>
+
+  <h2>Haftungsausschluss</h2>
+
+  <p>
+    Trotz sorgfältiger inhaltlicher Kontrolle wird keine Haftung
+    für die Inhalte externer Links übernommen.
+    Für den Inhalt der verlinkten Seiten sind ausschließlich deren
+    Betreiber verantwortlich.
+  </p>
+
+  <h2>Urheberrecht</h2>
+
+  <p>
+    Alle Inhalte dieser Webseite, insbesondere Texte,
+    Fotografien und Dokumente, sind urheberrechtlich geschützt.
+    Eine Verwendung ohne ausdrückliche Zustimmung ist nicht gestattet.
+  </p>
+
+  <hr>
+
+  <p style="font-size: 14px;">
+    Stand: Mai 2026
+  </p>
+
+</body>
+</html
